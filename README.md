@@ -21,11 +21,16 @@
 ```
 - [ ] Can use git add
 ```bash
-
+$ git add . #to add all the files that have been updated
+```
+-or-
+```bash
+$ git add [name_of_specific_file]
+$ git add main.css #individual file only
 ```
 - [ ] Can use git commit
 ```bash
-
+$ git commit -m "This is a commit message"
 ```
 - [ ] Can use git push
 ```bash
@@ -77,7 +82,8 @@
 ```
 - [ ] Can create a Git branch
 ```bash
-
+ $ git checkout -b [name_of_your_new_branch]
+ $ git checkout -b test1
 ```
 - [ ] Can merge Git branches
 ```bash
